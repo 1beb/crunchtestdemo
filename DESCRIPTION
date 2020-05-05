@@ -1,0 +1,15 @@
+Package: crunchtestdemo
+Type: Package
+Title: Demo how to use httptest for crunch's API
+Version: 0.1.0
+Author: Greg Freedman Ellis
+Maintainer: Greg Freedman Ellis <Greg@crunch.io>
+Description: Doesn't do much, but it will be tested!
+License: LGPL (>= 2.1)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    crunch
+RoxygenNote: 7.1.0
+Suggests: 
+    testthat
