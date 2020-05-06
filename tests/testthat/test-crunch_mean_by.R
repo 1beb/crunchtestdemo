@@ -28,7 +28,7 @@ with(
 )
 
 # If it were me, I'd have a function like this:
-with_fixture_as_api <- function(fixture_path, expr) {
+with_api_fixture <- function(fixture_path, expr) {
     with(
         crunch::temp.options(
             crunch.api = "https://app.crunch.io/api/",
