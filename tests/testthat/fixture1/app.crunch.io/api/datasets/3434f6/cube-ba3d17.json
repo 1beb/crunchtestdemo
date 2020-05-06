@@ -1,0 +1,148 @@
+{
+    "element": "shoji:view",
+    "self": "https://app.crunch.io/api/datasets/3434f6/cube/?query=%7B%22dimensions%22%3A%5B%7B%22variable%22%3A%22https%3A%2F%2Fapp.crunch.io%2Fapi%2Fdatasets%2F3434f6%2Fvariables%2F43nMt5iiZhOtdBmzbI5gCl000001%2F%22%7D%5D%2C%22measures%22%3A%7B%22mean%22%3A%7B%22function%22%3A%22cube_mean%22%2C%22args%22%3A%5B%7B%22variable%22%3A%22https%3A%2F%2Fapp.crunch.io%2Fapi%2Fdatasets%2F3434f6%2Fvariables%2F43nMt5iiZhOtdBmzbI5gCl000000%2F%22%7D%5D%7D%7D%2C%22weight%22%3Anull%7D&filter=%7B%7D",
+    "value": {
+        "query": {
+            "measures": {
+                "mean": {
+                    "function": "cube_mean",
+                    "args": [
+                        {
+                            "variable": "https://app.crunch.io/api/datasets/3434f6/variables/43nMt5iiZhOtdBmzbI5gCl000000/"
+                        }
+                    ]
+                }
+            },
+            "dimensions": [
+                {
+                    "variable": "https://app.crunch.io/api/datasets/3434f6/variables/43nMt5iiZhOtdBmzbI5gCl000001/"
+                }
+            ],
+            "weight": null
+        },
+        "query_environment": {
+            "filter": [
+
+            ]
+        },
+        "result": {
+            "dimensions": [
+                {
+                    "references": {
+                        "description": "",
+                        "format": {
+                            "summary": {
+                                "digits": 0
+                            }
+                        },
+                        "notes": "",
+                        "name": "region",
+                        "alias": "region",
+                        "view": {
+                            "show_counts": false,
+                            "show_numeric_values": false,
+                            "include_missing": false,
+                            "column_width": null
+                        }
+                    },
+                    "derived": false,
+                    "type": {
+                        "ordinal": false,
+                        "class": "categorical",
+                        "categories": [
+                            {
+                                "numeric_value": 1,
+                                "missing": false,
+                                "id": 1,
+                                "name": "North"
+                            },
+                            {
+                                "numeric_value": 2,
+                                "missing": false,
+                                "id": 2,
+                                "name": "South"
+                            },
+                            {
+                                "numeric_value": null,
+                                "missing": true,
+                                "id": -1,
+                                "name": "No Data"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "missing": 0,
+            "measures": {
+                "mean": {
+                    "data": [
+                        30.75,
+                        70.0,
+                        {
+                            "?": -8
+                        }
+                    ],
+                    "n_missing": 0,
+                    "metadata": {
+                        "references": {
+
+                        },
+                        "derived": true,
+                        "type": {
+                            "integer": true,
+                            "missing_rules": {
+
+                            },
+                            "missing_reasons": {
+                                "No Data": -1,
+                                "NaN": -8
+                            },
+                            "class": "numeric"
+                        }
+                    }
+                }
+            },
+            "n": 8,
+            "filter_stats": {
+                "filtered_complete": {
+                    "unweighted": {
+                        "selected": 8,
+                        "other": 0,
+                        "missing": 0
+                    },
+                    "weighted": {
+                        "selected": 8,
+                        "other": 0,
+                        "missing": 0
+                    }
+                },
+                "filtered": {
+                    "unweighted": {
+                        "selected": 8,
+                        "other": 0,
+                        "missing": 0
+                    },
+                    "weighted": {
+                        "selected": 8,
+                        "other": 0,
+                        "missing": 0
+                    }
+                }
+            },
+            "unfiltered": {
+                "unweighted_n": 8,
+                "weighted_n": 8
+            },
+            "filtered": {
+                "unweighted_n": 8,
+                "weighted_n": 8
+            },
+            "counts": [
+                4,
+                4,
+                0
+            ],
+            "element": "crunch:cube"
+        }
+    }
+}

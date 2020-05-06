@@ -1,0 +1,81 @@
+{
+    "element": "shoji:entity",
+    "self": "https://app.crunch.io/api/projects/1bde01/",
+    "catalogs": {
+        "datasets": "https://app.crunch.io/api/projects/1bde01/datasets/",
+        "users": "https://app.crunch.io/api/projects/1bde01/users/",
+        "members": "https://app.crunch.io/api/projects/1bde01/members/",
+        "teams": "https://app.crunch.io/api/projects/1bde01/teams/",
+        "project": "https://app.crunch.io/api/projects/"
+    },
+    "views": {
+        "templates": "https://app.crunch.io/api/projects/1bde01/templates/",
+        "logo": "https://app.crunch.io/api/projects/1bde01/logo/"
+    },
+    "body": {
+        "templates": {
+            "powerpoint": ""
+        },
+        "description": "",
+        "access_time": "2020-05-05T20:40:09.349000",
+        "palette": {
+            "brand": {
+                "message": "#722580",
+                "primary": "#005283",
+                "secondary": "#107f65"
+            }
+        },
+        "modification_time": "2020-05-05T20:40:08.247000",
+        "owner": "https://app.crunch.io/api/users/27a158/",
+        "logo": {
+            "large": "",
+            "small": "",
+            "favicon": ""
+        },
+        "id": "1bde01",
+        "permissions": {
+            "edit": true,
+            "view": true
+        },
+        "account": "https://app.crunch.io/api/accounts/00001/",
+        "name": "crunchtestdemo fixtures",
+        "owner_id": "https://app.crunch.io/api/users/27a158/"
+    },
+    "index": {
+        "https://app.crunch.io/api/datasets/3434f6/": {
+            "size": {
+                "rows": 8,
+                "unfiltered_rows": 8,
+                "columns": 2
+            },
+            "current_editor_name": "Greg",
+            "account": "https://app.crunch.io/api/accounts/00001/",
+            "owner_name": "crunchtestdemo fixtures",
+            "name": "fixture 1",
+            "end_date": null,
+            "streaming": "no",
+            "owner_id": "https://app.crunch.io/api/projects/1bde01/",
+            "current_editor": "https://app.crunch.io/api/users/27a158/",
+            "creation_time": "2020-05-05T20:40:06.368000+00:00",
+            "archived": false,
+            "view_of": null,
+            "start_date": null,
+            "modification_time": "2020-05-05T20:40:08.247000+00:00",
+            "access_time": "2020-05-05T20:40:06.226000+00:00",
+            "permissions": {
+                "edit": true,
+                "view": true
+            },
+            "is_published": true,
+            "type": "dataset",
+            "id": "3434f6",
+            "description": ""
+        }
+    },
+    "graph": [
+        "https://app.crunch.io/api/datasets/3434f6/"
+    ],
+    "orders": {
+        "order": "https://app.crunch.io/api/projects/1bde01/datasets/order/"
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "element": "shoji:catalog",
+    "self": "https://app.crunch.io/api/datasets/3434f6/variables/?relative=on",
+    "catalogs": {
+        "private": "https://app.crunch.io/api/datasets/3434f6/variables/private/"
+    },
+    "orders": {
+        "personal": "https://app.crunch.io/api/datasets/3434f6/variables/personal/",
+        "weights": "https://app.crunch.io/api/datasets/3434f6/variables/weights/",
+        "hier": "https://app.crunch.io/api/datasets/3434f6/variables/hier/"
+    },
+    "description": "List of Variables of this dataset",
+    "index": {
+        "43nMt5iiZhOtdBmzbI5gCl000000/": {
+            "discarded": false,
+            "alias": "age",
+            "secure": false,
+            "name": "age",
+            "id": "43nMt5iiZhOtdBmzbI5gCl000000",
+            "type": "numeric",
+            "notes": "",
+            "derived": false,
+            "hidden": false,
+            "description": ""
+        },
+        "43nMt5iiZhOtdBmzbI5gCl000001/": {
+            "secure": false,
+            "derived": false,
+            "id": "43nMt5iiZhOtdBmzbI5gCl000001",
+            "description": "",
+            "scale": "interval",
+            "name": "region",
+            "notes": "",
+            "discarded": false,
+            "alias": "region",
+            "hidden": false,
+            "type": "categorical"
+        }
+    }
+}

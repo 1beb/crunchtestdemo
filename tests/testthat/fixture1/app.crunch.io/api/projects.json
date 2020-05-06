@@ -1,0 +1,100 @@
+{
+    "element": "shoji:catalog",
+    "self": "https://app.crunch.io/api/projects/",
+    "catalogs": {
+        "personal": "https://app.crunch.io/api/projects/personal/",
+        "shared": "https://app.crunch.io/api/projects/shared/"
+    },
+    "index": {
+        "https://app.crunch.io/api/projects/817f65/": {
+            "modification_time": "2020-05-05T18:07:03.953000",
+            "account": "https://app.crunch.io/api/accounts/00001/",
+            "name": "Automation testing",
+            "access_time": "2020-02-04T19:45:22.682000",
+            "permissions": {
+                "edit": true,
+                "view": true
+            },
+            "type": "project",
+            "id": "817f65",
+            "description": ""
+        },
+        "https://app.crunch.io/api/projects/158f82/": {
+            "modification_time": "2020-05-05T20:37:17.370000",
+            "account": "https://app.crunch.io/api/accounts/b7a990/",
+            "name": "HuffPost",
+            "access_time": "2020-04-22T18:26:15.993000",
+            "permissions": {
+                "edit": false,
+                "view": true
+            },
+            "type": "project",
+            "id": "158f82",
+            "description": ""
+        },
+        "https://app.crunch.io/api/projects/bb75fc/": {
+            "modification_time": "2020-05-05T19:07:00.767000",
+            "account": "https://app.crunch.io/api/accounts/00001/",
+            "name": "rcrunch fixtures",
+            "access_time": "2020-05-05T19:07:05.242000",
+            "permissions": {
+                "edit": true,
+                "view": true
+            },
+            "type": "project",
+            "id": "bb75fc",
+            "description": ""
+        },
+        "https://app.crunch.io/api/projects/a1e6fd/": {
+            "modification_time": "2020-04-23T12:02:57.889000",
+            "account": "https://app.crunch.io/api/accounts/b7a990/",
+            "name": "Universal Music Group",
+            "access_time": "2020-04-08T20:56:51.568000",
+            "permissions": {
+                "edit": false,
+                "view": true
+            },
+            "type": "project",
+            "id": "a1e6fd",
+            "description": ""
+        },
+        "https://app.crunch.io/api/projects/1bde01/": {
+            "modification_time": "2020-05-05T20:40:08.247000",
+            "account": "https://app.crunch.io/api/accounts/00001/",
+            "name": "crunchtestdemo fixtures",
+            "access_time": "2020-05-05T20:40:09.349000",
+            "permissions": {
+                "edit": true,
+                "view": true
+            },
+            "type": "project",
+            "id": "1bde01",
+            "description": ""
+        },
+        "https://app.crunch.io/api/projects/c1931f/": {
+            "modification_time": "2020-04-29T18:24:19.851000",
+            "account": "https://app.crunch.io/api/accounts/b7a990/",
+            "name": "Economist",
+            "access_time": "2020-02-21T20:40:23.801000",
+            "permissions": {
+                "edit": true,
+                "view": true
+            },
+            "type": "project",
+            "id": "c1931f",
+            "description": "The Economist/YouGov Poll"
+        }
+    },
+    "body": {
+        "modification_time": "2020-05-05T20:40:08.247000",
+        "name": "Projects catalog",
+        "owner": "https://app.crunch.io/api/users/27a158/",
+        "access_time": "2020-05-05T20:40:09.349000",
+        "permissions": {
+            "edit": true,
+            "view": true
+        },
+        "owner_id": "https://app.crunch.io/api/users/27a158/",
+        "description": "Displays all the projects you have access to"
+    }
+}
