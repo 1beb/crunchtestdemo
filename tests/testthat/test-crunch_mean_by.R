@@ -39,7 +39,7 @@ with_api_fixture <- function(fixture_path, expr) {
 }
 
 # Same tests, but using function
-with_api_fixture("fixture 1", {
+with_api_fixture("fixture1", {
     ds <- crunch::loadDataset(
         "fixture 1",
         project = crunch::projects()[["crunchtestdemo fixtures"]]
